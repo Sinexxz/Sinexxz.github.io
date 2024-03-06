@@ -1,0 +1,251 @@
+/* Redefinição de estilos */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  /* Cabeçalho */
+  
+  header {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  /* Menu */
+  
+  nav {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav ul li a:hover {
+    color: #0077b3;
+  }
+  
+  /* Conteúdo Principal */
+  
+  main {
+    padding: 20px;
+  }
+  
+  /* Banner */
+  
+  .banner {
+    background-color: #0077b3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .banner h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .banner p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .banner a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #004d7a;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  .banner a:hover {
+    background-color: #003356;
+  }
+  
+  /* Produtos */
+  
+  .produtos {
+    margin-top: 20px;
+  }
+  
+  .produtos ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .produtos ul li {
+    width: 33.33%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .produtos ul li img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .produtos ul li h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .produtos ul li p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .produtos ul li a {
+    text-decoration: none;
+    color: #0077b3;
+    background-color: #f2f2f2;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .produtos ul li a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Depoimentos */
+  
+  /* .depoimentos {
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .depoimentos h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .depoimentos ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .depoimentos ul li {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .depoimentos ul li blockquote {
+    font-style: italic;
+    margin: 0; */
+  /* } */
+  
+  /* barra de pesquisa */
+  form {
+    display: flex;
+    align-items: center;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 200px;
+  }
+  
+  button {
+    background-color: #0077b3;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  /* logo do cliente */
+  .logo{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+  /* footer */
+  footer {
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer img {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+  }
+  
+  footer p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  footer ul li a:hover {
+    color: #0077b3;
+  }
+  
